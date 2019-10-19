@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1571503934446_1" label="parent" name="parent">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/dm110-ejb-client" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/dm110-api" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/dm110-impl" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/dm110-ear" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/dm110-ejb" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/dm110-web" type="4"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1571503867321_0" label="Window Working Set" name="Aggregate for window 1571503867321"/>
+</workingSetManager>

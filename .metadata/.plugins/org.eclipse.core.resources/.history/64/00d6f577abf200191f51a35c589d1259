@@ -1,0 +1,65 @@
+package br.inatel.dm110.servlet;
+
+import java.io.IOException;
+import java.io.PrintWriter;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+@WebServlet("/calcServlet")
+public class CalcServlet extends HttpServlet {
+
+	private static final long serialVersionUID = -24118939727042992L;
+
+	@Override
+	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+		String op1 = req.getParameter("op1");
+		String op2 = req.getParameter("op2");
+		String op = req.getParameter("op");
+		long res = 0;
+		
+		resp.setContentType("text/html");
+		PrintWriter out = resp.getWriter();
+		out.println("<h1>Calculator Servlet!</h1>");
+		
+		if(op1 == null || op2 == null || op == null) {
+			out.println("<h2>Missing operators parameters !</h2>");
+			return;
+		}
+		
+		try {
+		switch (op) {
+			case "soma":
+				res = Integer.parseInt(op1) + Integer.parseInt(op2);
+				break;
+			case "subtracao":
+				res = Integer.parseInt(op1) - Integer.parseInt(op2);
+				break;
+			case "multiplicacao":
+				res = Integer.parseInt(op1) * Integer.parseInt(op2);
+				break;
+			case "divisao":
+				if(Integer.parseInt(op2) == 0) {
+					out.println("<h2>Really you want to divide by ZERO!?</h2>");
+					return;
+				}
+				res = (long)(Long.parseLong(op1) / Integer.parseLong(op2));
+				break;
+			default:
+				break;
+			}
+		}catch(Exception e) {
+			out.println("<h2>Something is wrong, verify your request parameters</h2>");
+			return;
+		}
+		
+		
+		out.println("<h2>Operation was: "+ op +"</h2>");
+		out.println("<h2>Result is " + res + "</h2>");
+		out.println("Current date: " + new java.util.Date());
+	}
+
+}

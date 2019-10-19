@@ -1,0 +1,7 @@
+INDEX VERSION 1.4+C:\DM110\2019-dm110-master\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+1403869770.index
+4015776312.index
+2418934332.index
+3523231674.index
+11601733.index
+957289247.index
