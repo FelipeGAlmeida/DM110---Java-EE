@@ -1,0 +1,20 @@
+package br.inatel.dm110.api;
+
+import java.util.List;
+
+import javax.ws.rs.GET;
+import javax.ws.rs.POST;
+import javax.ws.rs.Path;
+
+@Path("/ibge")
+public interface IbgeService {
+
+	@POST
+	@Path("/state")
+	public void saveState();
+	
+	@GET
+	@Path("/states")
+	public List<StateTO> listAll();
+	
+}

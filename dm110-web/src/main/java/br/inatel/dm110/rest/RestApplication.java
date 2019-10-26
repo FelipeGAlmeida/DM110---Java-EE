@@ -8,6 +8,7 @@ import javax.ws.rs.core.Application;
 
 import br.inatel.dm110.impl.CalcServiceImpl;
 import br.inatel.dm110.impl.HelloServiceImpl;
+import br.inatel.dm110.impl.IbgeServiceImpl;
 
 @ApplicationPath("/api")
 public class RestApplication extends Application {
@@ -17,6 +18,7 @@ public class RestApplication extends Application {
 		Set<Class<?>> classes = new HashSet<>();
 		classes.add(HelloServiceImpl.class);
 		classes.add(CalcServiceImpl.class);
+		classes.add(IbgeServiceImpl.class);
 		return classes;
 	}
 

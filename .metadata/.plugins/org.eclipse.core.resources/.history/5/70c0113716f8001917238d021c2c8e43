@@ -1,0 +1,9 @@
+package br.inatel.dm110.ibge.interfaces;
+
+public interface Ibge {
+	
+	String insert(String name);
+
+	String listAll();
+	
+}

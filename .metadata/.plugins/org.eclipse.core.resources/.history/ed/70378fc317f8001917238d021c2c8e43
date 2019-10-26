@@ -1,0 +1,11 @@
+package br.inatel.dm110.ibge.interfaces;
+
+import java.util.List;
+
+public interface Ibge {
+	
+	public void insert(State ibge);
+
+	public List<State> listAll();
+	
+}

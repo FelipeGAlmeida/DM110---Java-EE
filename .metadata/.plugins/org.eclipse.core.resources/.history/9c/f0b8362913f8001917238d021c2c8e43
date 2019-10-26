@@ -1,0 +1,16 @@
+package br.inatel.dm110.hello.entities;
+
+import java.io.Serializable;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="ESTADO")
+public class State implements Serializable {
+
+	public State() {
+		
+	}
+	
+}

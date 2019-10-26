@@ -1,0 +1,15 @@
+package br.inatel.dm110.api;
+
+import java.io.Serializable;
+
+public class StateTO implements Serializable {
+
+	private static final long serialVersionUID = -5106558229027863908L;
+
+	private int ibge;
+	private String sigla;
+	private String nome;
+	private float area;
+
+
+}

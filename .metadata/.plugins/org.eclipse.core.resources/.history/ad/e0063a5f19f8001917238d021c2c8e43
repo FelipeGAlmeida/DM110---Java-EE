@@ -1,0 +1,15 @@
+package br.inatel.dm110.ibge.beans;
+
+import javax.ejb.Local;
+import javax.ejb.Remote;
+import javax.ejb.Stateless;
+
+import br.inatel.dm110.ibge.interfaces.IbgeLocal;
+import br.inatel.dm110.ibge.interfaces.IbgeRemote;
+
+@Stateless
+@Remote(IbgeRemote.class)
+@Local(IbgeLocal.class)
+public class IbgeBean implements IbgeLocal, IbgeRemotes {
+
+}

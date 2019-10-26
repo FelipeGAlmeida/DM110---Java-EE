@@ -1,0 +1,10 @@
+package br.inatel.dm110.hello.entities;
+
+import java.io.Serializable;
+
+import javax.persistence.Entity;
+
+@Entity
+public class State implements Serializable {
+
+}
