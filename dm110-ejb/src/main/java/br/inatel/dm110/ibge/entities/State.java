@@ -44,5 +44,10 @@ public class State implements Serializable {
 	public void setArea(float area) {
 		this.area = area;
 	}
+	
+	@Override
+	public String toString() {
+		return ibge + "&&" + sigla + "&&" + nome + "&&" + area;
+	}
 		
 }

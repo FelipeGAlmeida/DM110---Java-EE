@@ -21,6 +21,9 @@ public class IbgeBean implements IbgeLocal, IbgeRemote {
 	
 	@EJB
 	private IBGEDAO ibgedao;
+	
+	@EJB
+	private IbgeMessageSender sender;
 
 	@Override
 	public void insert(StateTO stto) {
@@ -33,6 +36,9 @@ public class IbgeBean implements IbgeLocal, IbgeRemote {
 		st.setArea(stto.getArea());
 		
 		ibgedao.insertState(st);
+		
+		sender.sendObjectMessage(stto);
+		System.out.println("IbgeBean: Mensagem enviada para a queue state.");
 	}
 
 	@Override

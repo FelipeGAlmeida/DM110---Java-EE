@@ -1,0 +1,78 @@
+package br.inatel.dm110.hello.mdb;
+
+import javax.ejb.ActivationConfigProperty;
+import javax.ejb.MessageDriven;
+import javax.jms.JMSException;
+import javax.jms.Message;
+import javax.jms.MessageListener;
+import javax.jms.ObjectMessage;
+import javax.jms.TextMessage;
+
+import br.inatel.dm110.api.StateTO;
+
+@MessageDriven(activationConfig = {
+		@ActivationConfigProperty(propertyName = "destinationType", propertyValue = "javax.jms.Queue"),
+		@ActivationConfigProperty(propertyName = "destination", propertyValue = "java:/jms/queue/dm110statequeue"),
+		@ActivationConfigProperty(propertyName = "maxSession", propertyValue = "5")
+})
+
+public class StateMDB implements MessageListener{
+
+	@Override
+	public void onMessage(Message message) {
+		if (message instanceof ObjectMessage) {
+			 ObjectMessage objMsg = (ObjectMessage) message;
+			try {
+				Object object = objMsg.getObject();
+				
+				Thread.sleep(5000);
+				
+				if (object instanceof StateTO) {
+					 StateTO sto = (StateTO) object;
+					 System.out.println("INSERTED State: \n"
+								+ "IBGE: " + sto.getIbge() + "\n"
+								+ "Nome: " + sto.getNome() + "\n"
+								+ "Sigla: "+ sto.getSigla()+ "\n"
+								+ "Área: " + sto.getArea());
+				}
+			} catch (JMSException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			} catch (InterruptedException ie) {
+				ie.printStackTrace();
+			}
+		}
+	}
+
+//	@Override
+//	public void onMessage(Message message) {
+//		if(message instanceof TextMessage) {
+//			TextMessage txtMessage = (TextMessage) message;
+//			try {
+//				String text = txtMessage.getText();
+//				System.out.println("Um estado está sendo salvo no sistema...");
+//				Thread.sleep(5000);
+//				
+//				String[] stateInfo = text.split("&&");
+//				StateTO sto = new StateTO();
+//				sto.setIbge(Integer.parseInt(stateInfo[0]));
+//				sto.setNome(stateInfo[1]);
+//				sto.setSigla(stateInfo[2]);
+//				sto.setArea(Float.parseFloat(stateInfo[3]));
+//				
+//				System.out.println("INSERTED State: \n"
+//						+ "IBGE: " + sto.getIbge() + "\n"
+//						+ "Nome: " + sto.getNome() + "\n"
+//						+ "Sigla: "+ sto.getSigla()+ "\n"
+//						+ "Área: " + sto.getArea());
+//				
+//				System.out.println("Estado foi salvo com sucesso");
+//			} catch (JMSException je) {
+//				je.printStackTrace();
+//			} catch (InterruptedException ie) {
+//				ie.printStackTrace();
+//			}
+//		}		
+//	}
+
+}

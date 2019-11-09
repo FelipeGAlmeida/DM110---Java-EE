@@ -1,1 +1,6 @@
 1573303454423	Delete element
+1573324963729	Copy compilation unit
+1573325273854	Copy compilation unit
+1573325293307	Rename type 'HelloMessageSender'
+1573327581053	Rename local variable 'text'
+1573327648731	Rename local variable 'textMessage'

@@ -1,0 +1,62 @@
+package br.inatel.dm110.ibge.beans;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.ejb.EJB;
+import javax.ejb.Local;
+import javax.ejb.Remote;
+import javax.ejb.Stateless;
+
+import br.inatel.dm110.api.StateTO;
+import br.inatel.dm110.ibge.dao.IBGEDAO;
+import br.inatel.dm110.ibge.entities.State;
+import br.inatel.dm110.ibge.interfaces.IbgeLocal;
+import br.inatel.dm110.ibge.interfaces.IbgeRemote;
+
+@Stateless
+@Remote(IbgeRemote.class)
+@Local(IbgeLocal.class)
+public class IbgeBean implements IbgeLocal, IbgeRemote {
+	
+	@EJB
+	private IBGEDAO ibgedao;
+	
+	@EJB
+	private IbgeMessageSender sender;
+
+	@Override
+	public void insert(StateTO stto) {
+		
+		State st = new State();
+	
+		st.setIbge(stto.getIbge());
+		st.setSigla(stto.getSigla());
+		st.setNome(stto.getNome());
+		st.setArea(stto.getArea());
+		
+		ibgedao.insertState(st);
+		
+		sender.sendTextMessage(st.toString());
+	}
+
+	@Override
+	public List<StateTO> listAll() {
+		List<State> sts = ibgedao.listAllStates();
+		List<StateTO> sttos = new ArrayList<StateTO>();
+		
+		for (State st : sts) {
+			StateTO stto = new StateTO();
+			
+			stto.setIbge(st.getIbge());
+			stto.setSigla(st.getSigla());
+			stto.setNome(st.getNome());
+			stto.setArea(st.getArea());
+			
+			sttos.add(stto);
+		}
+		
+		return sttos;
+	}
+
+}
