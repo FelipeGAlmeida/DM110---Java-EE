@@ -630,3 +630,95 @@ Caused by: org.eclipse.aether.transfer.ArtifactNotFoundException: Could not find
 2019-10-26 16:25:08,997 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2019-10-26 16:25:08,997 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\DM110\2019-dm110-master\dm110-web\src\main\resources
 2019-10-26 16:25:08,998 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-26 16:25:08,998 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\DM110\2019-dm110-master\dm110-web\src\test\resources
+2019-10-26 16:30:54,700 [Worker-235] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-26 16:30:54,701 [Worker-235] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2019-10-26 16:30:54,702 [Worker-235] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-26 16:30:54,703 [Worker-235] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\DM110\2019-dm110-master\dm110-ejb\src\test\resources
+2019-10-26 16:31:51,902 [Worker-237] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-26 16:31:51,902 [Worker-237] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2019-10-26 16:31:51,903 [Worker-237] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-26 16:31:51,903 [Worker-237] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\DM110\2019-dm110-master\dm110-ejb\src\test\resources
+2019-10-26 16:32:18,318 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-26 16:32:18,320 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2019-10-26 16:32:18,322 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-26 16:32:18,322 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\DM110\2019-dm110-master\dm110-ejb\src\test\resources
+2019-10-26 16:32:45,185 [Worker-237] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-26 16:32:45,186 [Worker-237] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2019-10-26 16:32:45,188 [Worker-237] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-26 16:32:45,188 [Worker-237] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\DM110\2019-dm110-master\dm110-ejb\src\test\resources
+2019-10-26 16:33:49,196 [Worker-219] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-26 16:33:49,197 [Worker-219] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2019-10-26 16:33:49,198 [Worker-219] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-26 16:33:49,198 [Worker-219] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\DM110\2019-dm110-master\dm110-ejb\src\test\resources
+2019-10-26 16:34:16,333 [Worker-235] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-26 16:34:16,334 [Worker-235] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2019-10-26 16:34:16,336 [Worker-235] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-26 16:34:16,336 [Worker-235] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\DM110\2019-dm110-master\dm110-ejb\src\test\resources
+2019-10-26 16:35:14,821 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-26 16:35:14,822 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2019-10-26 16:35:14,823 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-26 16:35:14,823 [Worker-224] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\DM110\2019-dm110-master\dm110-ejb\src\test\resources
+2019-10-26 16:35:18,963 [Worker-235] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-26 16:35:18,963 [Worker-235] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2019-10-26 16:35:18,964 [Worker-235] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-26 16:35:18,965 [Worker-235] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\DM110\2019-dm110-master\dm110-ejb\src\test\resources
+2019-10-26 16:35:47,215 [Worker-235] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-26 16:35:47,216 [Worker-235] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2019-10-26 16:35:47,217 [Worker-235] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-26 16:35:47,217 [Worker-235] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\DM110\2019-dm110-master\dm110-ejb\src\test\resources
+2019-10-26 16:36:02,243 [Worker-219] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-26 16:36:02,244 [Worker-219] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2019-10-26 16:36:02,245 [Worker-219] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-26 16:36:02,245 [Worker-219] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\DM110\2019-dm110-master\dm110-ejb\src\test\resources
+2019-10-26 16:36:11,648 [Worker-219] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-26 16:36:11,649 [Worker-219] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2019-10-26 16:36:11,650 [Worker-219] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-26 16:36:11,651 [Worker-219] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\DM110\2019-dm110-master\dm110-ejb\src\test\resources
+2019-10-26 16:36:25,152 [Worker-219] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-26 16:36:25,153 [Worker-219] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2019-10-26 16:36:25,154 [Worker-219] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-26 16:36:25,154 [Worker-219] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\DM110\2019-dm110-master\dm110-ejb\src\test\resources
+2019-10-26 16:36:31,163 [Worker-239] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-26 16:36:31,164 [Worker-239] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2019-10-26 16:36:31,165 [Worker-239] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-26 16:36:31,165 [Worker-239] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\DM110\2019-dm110-master\dm110-ejb\src\test\resources
+2019-10-26 16:45:44,702 [Worker-237] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-26 16:45:44,703 [Worker-237] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2019-10-26 16:45:44,704 [Worker-237] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-26 16:45:44,704 [Worker-237] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\DM110\2019-dm110-master\dm110-ejb\src\test\resources
+2019-10-26 16:47:03,154 [Worker-240] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-26 16:47:03,155 [Worker-240] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2019-10-26 16:47:03,156 [Worker-240] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-26 16:47:03,157 [Worker-240] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\DM110\2019-dm110-master\dm110-ejb\src\test\resources
+2019-10-26 16:47:08,121 [Worker-238] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-26 16:47:08,123 [Worker-238] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2019-10-26 16:47:08,123 [Worker-238] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-26 16:47:08,124 [Worker-238] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\DM110\2019-dm110-master\dm110-ejb\src\test\resources
+2019-10-26 16:47:39,842 [Worker-238] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-26 16:47:39,843 [Worker-238] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2019-10-26 16:47:39,844 [Worker-238] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-10-26 16:47:39,844 [Worker-238] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\DM110\2019-dm110-master\dm110-ejb\src\test\resources
+2019-11-09 10:39:07,763 [Worker-5] INFO  c.g.t.t.d.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2019-11-09 10:39:13,374 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-09 10:39:13,375 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\DM110\2019-dm110-master\dm110-web\src\main\resources
+2019-11-09 10:39:13,378 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-09 10:39:13,379 [Worker-12] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\DM110\2019-dm110-master\dm110-web\src\test\resources
+2019-11-09 10:41:49,951 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-09 10:41:49,961 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2019-11-09 10:41:49,975 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-09 10:41:49,975 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\DM110\2019-dm110-master\dm110-ejb\src\test\resources
+2019-11-09 10:43:03,069 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-09 10:43:03,071 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2019-11-09 10:43:03,072 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-09 10:43:03,072 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\DM110\2019-dm110-master\dm110-ejb\src\test\resources
+2019-11-09 10:44:14,619 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-09 10:44:14,620 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2019-11-09 10:44:14,621 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-09 10:44:14,622 [Worker-9] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\DM110\2019-dm110-master\dm110-ejb\src\test\resources
+2019-11-09 10:44:28,557 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-09 10:44:28,557 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources
+2019-11-09 10:44:28,559 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-09 10:44:28,559 [Worker-19] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\DM110\2019-dm110-master\dm110-ejb\src\test\resources
+2019-11-09 10:44:34,413 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-11-09 10:44:34,414 [Worker-21] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 2 resources

@@ -1,0 +1,22 @@
+package br.inatel.dm110.ibge.entities;
+
+import java.io.Serializable;
+
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="CIDADE")
+public class City implements Serializable {
+
+	public City() {
+		
+	}
+	
+	@Id
+	private int ibge;
+	private String nome;
+	private float area;
+		
+}

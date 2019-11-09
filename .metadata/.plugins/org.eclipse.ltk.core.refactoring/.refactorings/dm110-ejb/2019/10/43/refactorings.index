@@ -1,3 +1,8 @@
 1572109327122	Rename package 'entities'
 1572112630652	Rename local variable 'ibge'
 1572112802225	Rename local variable 'state'
+1572118254524	Copy compilation unit
+1572118338024	Rename package 'br.inatel.dm110.hello.entities'
+1572118364871	Rename package 'br.inatel.dm110.hello.dao'
+1572118429070	Rename method 'listAll'
+1572118456207	Rename method 'insert'

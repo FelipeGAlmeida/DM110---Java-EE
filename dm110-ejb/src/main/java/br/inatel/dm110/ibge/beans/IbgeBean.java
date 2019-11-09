@@ -9,8 +9,8 @@ import javax.ejb.Remote;
 import javax.ejb.Stateless;
 
 import br.inatel.dm110.api.StateTO;
-import br.inatel.dm110.hello.dao.IBGEDAO;
-import br.inatel.dm110.hello.entities.State;
+import br.inatel.dm110.ibge.dao.IBGEDAO;
+import br.inatel.dm110.ibge.entities.State;
 import br.inatel.dm110.ibge.interfaces.IbgeLocal;
 import br.inatel.dm110.ibge.interfaces.IbgeRemote;
 
@@ -32,12 +32,12 @@ public class IbgeBean implements IbgeLocal, IbgeRemote {
 		st.setNome(stto.getNome());
 		st.setArea(stto.getArea());
 		
-		ibgedao.insert(st);
+		ibgedao.insertState(st);
 	}
 
 	@Override
 	public List<StateTO> listAll() {
-		List<State> sts = ibgedao.listAll();
+		List<State> sts = ibgedao.listAllStates();
 		List<StateTO> sttos = new ArrayList<StateTO>();
 		
 		for (State st : sts) {
